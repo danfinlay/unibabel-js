@@ -1,5 +1,5 @@
 {
-  "name": "unibabel",
+  "name": "browserify-unibabel",
   "version": "2.1.3",
   "description": "Base64, TypedArrays, and UTF-8 / Unicode conversions in Browser (and Node) JavaScript",
   "main": "node.js",
