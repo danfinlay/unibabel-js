@@ -1,11 +1,8 @@
 {
   "name": "browserify-unibabel",
-  "version": "2.1.3",
+  "version": "3.0.0",
   "description": "Base64, TypedArrays, and UTF-8 / Unicode conversions in Browser (and Node) JavaScript",
-  "main": "node.js",
-  "browser": {
-    "./node.js": "./index.js"
-  },
+  "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

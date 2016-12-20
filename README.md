@@ -13,6 +13,12 @@ var Unibabel = require('unibabel-js')
 // Now you can use Unibabel like the original docs below.
 ```
 
+## Another caveat
+
+The original Unibabel fails hard when loaded into node.js, but this one doesn't. That's because I unit-test some things that include this in a node environment, even when not using it.  I think the hard failure was a little extreme.
+
+To reiterate the error:  You shouldn't use this in node.js, you have Buffers in node.js, and they do this all better.
+
 # Original Unibabel Docs
 
 Minimalistic **Base64**, **TypedArrays**, and **UTF-8** / **Unicode** conversions in Browser (and Node) JavaScript. Optional add-on support for **hex** and **base32**.
