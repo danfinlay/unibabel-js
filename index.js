@@ -1,4 +1,3 @@
-(function () {
 'use strict';
 
 function utf8ToBinaryString(str) {
@@ -82,7 +81,7 @@ function base64ToBuffer(base64) {
   return buf;
 }
 
-window.Unibabel = {
+module.exports = {
   utf8ToBinaryString: utf8ToBinaryString
 , utf8ToBuffer: utf8ToBuffer
 , utf8ToBase64: utf8ToBase64
@@ -100,5 +99,3 @@ window.Unibabel = {
 , arrToBase64: bufferToBase64
 , base64ToArr: base64ToBuffer
 };
-
-}());
