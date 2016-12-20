@@ -1,15 +1,19 @@
-Daplie is Taking Back the Internet!
---------------
-
-[![](https://daplie.github.com/igg/images/ad-developer-rpi-white-890x275.jpg?v2)](https://daplie.com/preorder/)
-
-Stop serving the empire and join the rebel alliance!
-
-* [Invest in Daplie on Wefunder](https://daplie.com/invest/)
-* [Pre-order Cloud](https://daplie.com/preorder/), The World's First Home Server for Everyone
-
-Unibabel
+Unibabel JS: The Browserify-Ready Unibabel
 ========
+
+A simple browserify style version of Unibabel, exported as a module instead of as a global object.
+
+Currently does not support the add-in support for hex or base32, because I didn't need them when I made this, and its extendable format is a little unusual.  So, PRs welcome.
+
+## Usage
+
+```javascript
+var Unibabel = require('unibabel-js')
+
+// Now you can use Unibabel like the original docs below.
+```
+
+# Original Unibabel Docs
 
 Minimalistic **Base64**, **TypedArrays**, and **UTF-8** / **Unicode** conversions in Browser (and Node) JavaScript. Optional add-on support for **hex** and **base32**.
 
